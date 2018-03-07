@@ -1,26 +1,34 @@
 2.1.5
 1. The central processor unit (CPU) contains registers and what other basic elements?
-
+    Control Unit, Arithmetic Logic Unit, and the clock.
 2. The central processor unit is connected to the rest of the computer system using what three buses?
-
+    Data, Address, and Control buses.
 3. Why does memory access take more machine cycles than register access?
-
+    Conventional memory is outside the CPU and it responds more slowly to access requests.
+    Registers are hard-wired inside the CPU.
 4. What are the three basic steps in the instruction execution cycle?
-
+    Fetch, decode, execute.
 5. Which two additional steps are required in the instruction execution cycle when a memory operand is used?
+    Fetch memory operands, store memory operands.
 
 2.4.3
 5. What is the purpose of the 8259A PIC controller?
+    The 8259A PIC controller handles external interrupts from hardware devices such as the
+    keyboard, system clock, and disk drives.
 
 2.5.2
 1. Of the four levels of input/output in a computer system, which is the most universal and portable?
-
+    The application program level.
 3. Why are device drivers necessary, given that the BIOS already has code that communicates with the computer's hardware?
-
+    New devices are invented all the time with capabilities that were often not anticipated
+    when the BIOS was written.
 4. In the example regarding displaying a string of characters, which level exists between the operating system and the video contoller
     card?
-
+    The BIOS level.
 5. Is it likely that the BIOS for a computer running MS-Windows would be different from that used by a computer running Linux?
+    No. The same BIOS would work for both operating systems. Many computer owners
+    install two or three operating systems on the same computer. They would certainly not
+    want to change the system BIOS every time they rebooted the computer.
 
 2.8
 7. Which part of the CPU performs floating-point arithmetic?

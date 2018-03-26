@@ -32,20 +32,20 @@
 
 2.8
 7. Which part of the CPU performs floating-point arithmetic?
-
+    The floating-point unit
 8. On a 32-bit processor, how many bits are contained in each floatin-point data register?
-
+    48
 9. (True/False):The x86-64 instuction set is backward-compatible with the x86 instruction set.
-
+    True
 10. (True/False):In current 64-bit chip implementations, all 64 bits are used for addressing.
-
+    False
 12. (True/False):Static RAM is usually less expensive than dynamic RAM.
-
+    False
 19. (True/False):A bus is a plastic cable that is attached to the motherboard at both ends, but does not sit directly on the motherboard.
-
+    False
 20. (True/False):CMOS RAM is the same as static RAM, meaning that it holds its value without any extra power or refresh cycles.
-
+    False
 25. At which level(s) can an assembly language program manipulate input/output?
-
+    Level 0
 26. Why do game programs often send their sound out directly to the sound card's hardware ports?
-
+    Because it's faster
